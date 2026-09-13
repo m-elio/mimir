@@ -1,0 +1,164 @@
+# @package trainer
+
+_trainer_: lcm.train.two_tower_diffusion_lcm.trainer.prepare_two_tower_diffusion_lcm_trainer
+
+output_dir: ??
+
+#Parameter Size: 1,635,101,696
+model_arch: two_tower_diffusion_lcm_1_6B 
+
+criterion:
+  name: two_tower_diffusion_next_sent
+  cf_guidance_probability: 0.15
+  reduction: sum
+  log_losses_per_timestep_bucket: True
+  compute_rmse: False
+  step_sampling:
+    sampling: "uniform"
+    weighting: "none"
+
+dtype: "torch.float16"
+use_optimizer_in_fp32: true
+use_fsdp: true
+fsdp_fp32_reduce: true
+
+lr: 0.0004
+lr_schedule: cosine
+num_lr_warmup_steps: 10_000
+max_steps: 250_001
+gradient_accumulation: 1
+max_grad_norm: 25
+weight_decay: 0.1
+adam_betas:
+  - 0.9
+  - 0.95
+adam_eps: 1e-5
+
+validate_every_n_steps: 300_000
+save_model_every_n_steps: 5_000
+checkpoint_every_n_steps: 5_000
+keep_last_n_checkpoints: 100
+preserve_consolidated_models: True
+publish_metrics_every_n_steps: 10
+
+seed: 1
+profile: false
+
+data_loading_config:
+  multiple_dataset_chaining: "sample"
+  max_tokens: 14372
+  min_batch_size: 1
+  len_to_wrap_long_seq: 128
+  packing: false
+  min_length_of_sequences: 1
+  min_length_after_batching: 2
+  num_parallel_calls: 1
+  nb_prefetch: 5
+  nb_epochs: 1
+  max_sentence_len_in_doc: 300
+  max_sentence_len_in_target_doc: 300
+
+validation_data_loading_config:
+  len_to_wrap_long_seq: 128
+
+training_data:
+  - name: "pretraining_data_eng:39.66" 
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_ita:3.12"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_arb:0.81"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_bel:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_ben:0.2"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_bos:0.28"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_bul:0.34"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_cat:0.22"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_ces:0.86"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_cym:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_dan:0.59"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_deu:6.48"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_fra:4.70"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_heb:0.19"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_hin:0.29"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_hrv:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_ind:1.31"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_jpn:5.23"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_kan:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_kor:0.8"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_lvs:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_mal:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_mar:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_mkd:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_npi:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_nld:1.92"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_ory:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_pol:1.98"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_por:2.61"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_ron:0.76"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_rus:9.13"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_slk:0.39"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_slv:0.16"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_srp:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_spa:5.76"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_swe:0.78"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_swh:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_tam:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_tel:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_tha:0.47"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_tur:1.24"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_ukr:0.69"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_urd:0.1"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_vie:0.8"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_zhos:8.00"
+    source_suffix_text: "End of text."
+  - name: "pretraining_data_zhot:0.31"
+    source_suffix_text: "End of text."
+
+requirements:
+  nodes: 4
+  tasks_per_node: 4
+  gpus_per_node: 4
+  cpus_per_task: 8
+  mem_gb: 0
+  timeout_min: 10000

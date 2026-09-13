@@ -1,0 +1,929 @@
+name: "pretraining_data_eng"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-350BT-split"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_arb"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/arb_Arab"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_bel"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/bel_Cyrl"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_ben"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/ben_Beng"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_bos"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/bos_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_bul"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/bul_Cyrl"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_cat"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/cat_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_ces"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/ces_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_cym"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/cym_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_dan"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/dan_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_deu"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/deu_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_fra"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/fra_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_heb"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/heb_Hebr"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_hin"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/hin_Deva"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_hrv"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/hrv_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_ind"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/ind_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_ita"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/ita_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_jpn"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/jpn_Jpan"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_kan"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/kan_Knda"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_kor"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/kor_Hang"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_lvs"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/lvs_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_mal"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/mal_Mlym"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_mar"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/mar_Deva"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_mkd"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/mkd_Cyrl"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_nld"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/nld_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_npi"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/npi_Deva"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_ory"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/ory_Orya"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_pol"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/pol_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_por"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/por_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_ron"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/ron_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_rus"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/rus_Cyrl"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_slk"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/slk_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_slv"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/slv_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_spa"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/spa_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_srp"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/srp_Cyrl"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_swe"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/swe_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_swh"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/swh_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_tam"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/tam_Taml"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_tel"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/tel_Telu"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_tha"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/tha_Thai"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_tur"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/tur_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_ukr"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/ukr_Cyrl"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_urd"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/urd_Arab"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_vie"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/vie_Latn"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_zhos"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/zho_Hans"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "pretraining_data_zhot"
+parquet_path:
+  path: "[PATH_TO_DATA]/edu-multil-split/zho_Hant"
+source_column: "text_sentences"
+source_text_column: "text_sentences_2"
+columns: 
+  - "lang"
+  - "text_sentences"
+---
+name: "finetuning_data_arb"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/arb_Arab"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_bel"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/bel_Cyrl"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_ben"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/ben_Beng"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_bul"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/bul_Cyrl"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_cat"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/cat_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_ces"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/ces_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_cym"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/cym_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_dan"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/dan_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_deu"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/deu_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_eng"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/eng_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_fra"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/fra_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_heb"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/heb_Hebr"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_hin"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/hin_Deva"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_hrv"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/hrv_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_ind"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/ind_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_ita"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/ita_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_kan"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/kan_Knda"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_kor"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/kor_Hang"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_lvs"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/lvs_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_jpn"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/jpn_Jpan"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_mal"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/mal_Mlym"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_mar"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/mar_Deva"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_mkd"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/mkd_Cyrl"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_nld"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/nld_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_npi"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/npi_Deva"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_pol"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/pol_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_por"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/por_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_ron"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/ron_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_rus"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/rus_Cyrl"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_slk"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/slk_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_slv"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/slv_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_spa"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/spa_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_srp"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/srp_Cyrl"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_swe"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/swe_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_swh"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/swh_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_tam"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/tam_Taml"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_tel"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/tel_Telu"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_tha"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/tha_Thai"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_tur"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/tur_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_ukr"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/ukr_Cyrl"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_urd"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/urd_Arab"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_vie"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/vie_Latn"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"
+---
+name: "finetuning_data_zhos"
+parquet_path:
+  path: "[PATH_TO_DATA_IT]/zho_Hans"
+source_column: "inputs_sentences"
+source_text_column: "inputs_sentences_2"
+target_column: "targets_sentences"
+target_text_column: "targets_sentences_2"
+columns: 
+  - "lang"
+  - "inputs_sentences"
+  - "targets_sentences"

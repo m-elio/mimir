@@ -1,0 +1,96 @@
+# @package trainer
+
+_trainer_: lcm.train.two_tower_diffusion_lcm.trainer.prepare_two_tower_diffusion_lcm_trainer
+
+requirements:
+  nodes: 4
+  tasks_per_node: 4
+  gpus_per_node: 4
+  cpus_per_task: 8
+  mem_gb: 0
+
+# Overwrite to start from a different pre-trained model
+model_config_or_name: dummy_2t_pretrained_model
+
+criterion:
+  name: two_tower_diffusion_next_sent_finetuning
+  cf_guidance_probability: 0.15
+  reduction: sum
+  log_losses_per_timestep_bucket: False
+  compute_rmse: False
+  step_sampling:
+    sampling: "uniform"
+    weighting: "none"
+
+output_dir: ??
+dtype: "torch.float16"
+use_optimizer_in_fp32: true
+use_fsdp: true
+fsdp_fp32_reduce: true
+
+lr_schedule: cosine
+start_lr: 1e-7
+final_lr: 1e-7
+lr: 1e-5 
+num_lr_warmup_steps: 1000
+max_grad_norm: 1.0 
+weight_decay: 0.01
+
+max_steps: 20_001
+gradient_accumulation: 4
+
+validate_every_n_steps: 300_000
+save_model_every_n_steps: 5_000
+checkpoint_every_n_steps: 5_000
+keep_last_n_checkpoints: 100
+preserve_consolidated_models: True
+publish_metrics_every_n_steps: 10
+
+seed: 1
+profile: false
+
+data_loading_config:
+  multiple_dataset_chaining: "sample"
+  max_tokens: 0   
+  batch_size: 8     
+  nb_epochs: 100
+  max_sentence_len_in_doc: 300
+  max_sentence_len_in_target_doc: 300
+
+
+training_data:
+  - name: "finetuning_data_eng:39.66"
+  - name: "finetuning_data_ita:3.12"
+  - name: "finetuning_data_arb:0.81"
+  - name: "finetuning_data_ben:0.2"
+  - name: "finetuning_data_ces:0.86"
+  - name: "finetuning_data_deu:6.48"
+  - name: "finetuning_data_fra:4.70"
+  - name: "finetuning_data_heb:0.19"
+  - name: "finetuning_data_hrv:0.1"
+  - name: "finetuning_data_ind:1.31"
+  - name: "finetuning_data_kor:0.8"
+  - name: "finetuning_data_lvs:0.1"
+  - name: "finetuning_data_jpn:5.23"
+  - name: "finetuning_data_hin:0.29"
+  - name: "finetuning_data_mal:0.1"
+  - name: "finetuning_data_mar:0.1"
+  - name: "finetuning_data_mkd:0.1"
+  - name: "finetuning_data_nld:1.92"
+  - name: "finetuning_data_npi:0.1"
+  - name: "finetuning_data_pol:1.98"
+  - name: "finetuning_data_por:2.61"
+  - name: "finetuning_data_ron:0.76"
+  - name: "finetuning_data_rus:9.13"
+  - name: "finetuning_data_slv:0.16"
+  - name: "finetuning_data_spa:5.76"
+  - name: "finetuning_data_swe:0.78"
+  - name: "finetuning_data_swh:0.1"
+  - name: "finetuning_data_tam:0.1"
+  - name: "finetuning_data_tel:0.1"
+  - name: "finetuning_data_tha:0.47"
+  - name: "finetuning_data_tur:1.24"
+  - name: "finetuning_data_ukr:0.69"
+  - name: "finetuning_data_urd:0.1"
+  - name: "finetuning_data_vie:0.8"
+  - name: "finetuning_data_zhos:8.00"

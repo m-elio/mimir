@@ -1,0 +1,115 @@
+{"ds": "mlqa", "model": "Qwen3 1.7B", "lang": "arb_Arab", "rougeL": 0.38455716818719465}
+{"ds": "mlqa", "model": "Mimir 1.6B EN", "lang": "arb_Arab", "rougeL": 0.2858600561685536}
+{"ds": "mlqa", "model": "Mimir 1.6B", "lang": "arb_Arab", "rougeL": 0.3158624353799998}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD EN", "lang": "arb_Arab", "rougeL": 0.14017217130943024}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD", "lang": "arb_Arab", "rougeL": 0.17745044212882888}
+{"ds": "mlqa", "model": "Qwen3 1.7B", "lang": "deu_Latn", "rougeL": 0.3824674481682076}
+{"ds": "mlqa", "model": "Mimir 1.6B EN", "lang": "deu_Latn", "rougeL": 0.3524976532822978}
+{"ds": "mlqa", "model": "Mimir 1.6B", "lang": "deu_Latn", "rougeL": 0.37724581330995377}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD EN", "lang": "deu_Latn", "rougeL": 0.15462776570277792}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD", "lang": "deu_Latn", "rougeL": 0.20094809685321763}
+{"ds": "mlqa", "model": "Qwen3 1.7B", "lang": "eng_Latn", "rougeL": 0.5134951716333855}
+{"ds": "mlqa", "model": "Mimir 1.6B EN", "lang": "eng_Latn", "rougeL": 0.4584554331467775}
+{"ds": "mlqa", "model": "Mimir 1.6B", "lang": "eng_Latn", "rougeL": 0.4477752002523929}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD EN", "lang": "eng_Latn", "rougeL": 0.25434829606888587}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD", "lang": "eng_Latn", "rougeL": 0.23457646766146517}
+{"ds": "mlqa", "model": "Qwen3 1.7B", "lang": "hin_Deva", "rougeL": 0.1465419687692227}
+{"ds": "mlqa", "model": "Mimir 1.6B EN", "lang": "hin_Deva", "rougeL": 0.33641255489130856}
+{"ds": "mlqa", "model": "Mimir 1.6B", "lang": "hin_Deva", "rougeL": 0.3357963841233682}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD EN", "lang": "hin_Deva", "rougeL": 0.1261926725246064}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD", "lang": "hin_Deva", "rougeL": 0.12433855301291558}
+{"ds": "mlqa", "model": "Qwen3 1.7B", "lang": "spa_Latn", "rougeL": 0.4892761141623393}
+{"ds": "mlqa", "model": "Mimir 1.6B EN", "lang": "spa_Latn", "rougeL": 0.3844817654073608}
+{"ds": "mlqa", "model": "Mimir 1.6B", "lang": "spa_Latn", "rougeL": 0.3912163582989371}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD EN", "lang": "spa_Latn", "rougeL": 0.17831502318322057}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD", "lang": "spa_Latn", "rougeL": 0.23253267955595439}
+{"ds": "mlqa", "model": "Qwen3 1.7B", "lang": "vie_Latn", "rougeL": 0.3293959857999645}
+{"ds": "mlqa", "model": "Mimir 1.6B EN", "lang": "vie_Latn", "rougeL": 0.36386206371208263}
+{"ds": "mlqa", "model": "Mimir 1.6B", "lang": "vie_Latn", "rougeL": 0.3727249379977373}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD EN", "lang": "vie_Latn", "rougeL": 0.15397332686302428}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD", "lang": "vie_Latn", "rougeL": 0.17423957150660158}
+{"ds": "mlqa", "model": "Qwen3 1.7B", "lang": "zho_Hans", "rougeL": 0.3236924844920659}
+{"ds": "mlqa", "model": "Mimir 1.6B EN", "lang": "zho_Hans", "rougeL": 0.2555755331957261}
+{"ds": "mlqa", "model": "Mimir 1.6B", "lang": "zho_Hans", "rougeL": 0.28812028874229034}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD EN", "lang": "zho_Hans", "rougeL": 0.12038460539538681}
+{"ds": "mlqa", "model": "Mimir 1.6B OOD", "lang": "zho_Hans", "rougeL": 0.16056165455825}
+{"ds": "xl-wsd", "model": "Mimir 1.6B", "lang": "deu_Latn", "rougeL": 0.14423399829777717}
+{"ds": "xl-wsd", "model": "Mimir 1.6B OOD", "lang": "deu_Latn", "rougeL": 0.13002978755106598}
+{"ds": "xl-wsd", "model": "Mimir 1.6B", "lang": "eng_Latn", "rougeL": 0.0856121645106315}
+{"ds": "xl-wsd", "model": "Mimir 1.6B OOD", "lang": "eng_Latn", "rougeL": 0.08768762904209337}
+{"ds": "xl-wsd", "model": "Mimir 1.6B", "lang": "fra_Latn", "rougeL": 0.15823493507796835}
+{"ds": "xl-wsd", "model": "Mimir 1.6B OOD", "lang": "fra_Latn", "rougeL": 0.15238596742439026}
+{"ds": "xl-wsd", "model": "Mimir 1.6B", "lang": "ita_Latn", "rougeL": 0.10366733509609488}
+{"ds": "xl-wsd", "model": "Mimir 1.6B OOD", "lang": "ita_Latn", "rougeL": 0.09945759818451119}
+{"ds": "xl-wsd", "model": "Mimir 1.6B", "lang": "spa_Latn", "rougeL": 0.15059970371591747}
+{"ds": "xl-wsd", "model": "Mimir 1.6B OOD", "lang": "spa_Latn", "rougeL": 0.1387801347043672}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "eng_Latn", "rougeL": 0.10844927667443394}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "eng_Latn", "rougeL": 0.2593788042867675}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "eng_Latn", "rougeL": 0.2416539808940647}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "eng_Latn", "rougeL": 0.1076562057225339}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "eng_Latn", "rougeL": 0.11433910857899532}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "fra_Latn", "rougeL": 0.12760069750221703}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "fra_Latn", "rougeL": 0.23784088833068037}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "fra_Latn", "rougeL": 0.24608703532750037}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "fra_Latn", "rougeL": 0.1301130652675479}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "fra_Latn", "rougeL": 0.15892135982814964}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "hin_Deva", "rougeL": 0.1150766120529936}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "hin_Deva", "rougeL": 0.23816567902220304}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "hin_Deva", "rougeL": 0.23064354412441362}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "hin_Deva", "rougeL": 0.15025753573404527}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "hin_Deva", "rougeL": 0.14498558902891023}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "ind_Latn", "rougeL": 0.00992306181653995}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "ind_Latn", "rougeL": 0.2339445192383781}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "ind_Latn", "rougeL": 0.23335747842375218}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "ind_Latn", "rougeL": 0.10577489853764842}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "ind_Latn", "rougeL": 0.11947348901867103}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "jpn_Jpan", "rougeL": 0.12471186806762216}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "jpn_Jpan", "rougeL": 0.18203956159251922}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "jpn_Jpan", "rougeL": 0.17997046789619053}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "jpn_Jpan", "rougeL": 0.0947744653656114}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "jpn_Jpan", "rougeL": 0.10784042402959453}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "kor_Hang", "rougeL": 0.1068372978670736}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "kor_Hang", "rougeL": 0.20298637292276606}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "kor_Hang", "rougeL": 0.19783088768127277}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "kor_Hang", "rougeL": 0.08901061704207136}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "kor_Hang", "rougeL": 0.11024566304217281}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "por_Latn", "rougeL": 0.11171317567050212}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "por_Latn", "rougeL": 0.21235281071915096}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "por_Latn", "rougeL": 0.21059086935339216}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "por_Latn", "rougeL": 0.10886596608590653}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "por_Latn", "rougeL": 0.12483924480179931}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "rus_Cyrl", "rougeL": 0.1135240634630481}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "rus_Cyrl", "rougeL": 0.19597393843175503}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "rus_Cyrl", "rougeL": 0.19858615920072464}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "rus_Cyrl", "rougeL": 0.12059050193763157}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "rus_Cyrl", "rougeL": 0.13840203501691967}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "spa_Latn", "rougeL": 0.09451987895081321}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "spa_Latn", "rougeL": 0.20103314532407313}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "spa_Latn", "rougeL": 0.20447105799246665}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "spa_Latn", "rougeL": 0.12008786864595042}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "spa_Latn", "rougeL": 0.12963277535354173}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "tha_Thai", "rougeL": 0.1394875408729363}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "tha_Thai", "rougeL": 0.1561617837916912}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "tha_Thai", "rougeL": 0.18054814625170654}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "tha_Thai", "rougeL": 0.16668934264684265}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "tha_Thai", "rougeL": 0.17496463473329515}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "tur_Latn", "rougeL": 0.08943609350676247}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "tur_Latn", "rougeL": 0.21918707324628312}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "tur_Latn", "rougeL": 0.2131161047134266}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "tur_Latn", "rougeL": 0.11593852732599116}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "tur_Latn", "rougeL": 0.12528029287056325}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "ukr_Cyrl", "rougeL": 0.13054280816283353}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "ukr_Cyrl", "rougeL": 0.1907804619549119}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "ukr_Cyrl", "rougeL": 0.18932134361821035}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "ukr_Cyrl", "rougeL": 0.11284521244240012}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "ukr_Cyrl", "rougeL": 0.12162472282862791}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "vie_Latn", "rougeL": 0.11642509344850271}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "vie_Latn", "rougeL": 0.17862768007246096}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "vie_Latn", "rougeL": 0.17919863100840605}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "vie_Latn", "rougeL": 0.09526848951793718}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "vie_Latn", "rougeL": 0.11885177638620965}
+{"ds": "xlsum", "model": "Qwen3 1.7B", "lang": "zho_Hans", "rougeL": 0.1478217017405015}
+{"ds": "xlsum", "model": "Mimir 1.6B EN", "lang": "zho_Hans", "rougeL": 0.18606411218374935}
+{"ds": "xlsum", "model": "Mimir 1.6B", "lang": "zho_Hans", "rougeL": 0.1962294962189616}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD EN", "lang": "zho_Hans", "rougeL": 0.09042018796747395}
+{"ds": "xlsum", "model": "Mimir 1.6B OOD", "lang": "zho_Hans", "rougeL": 0.10981762010362067}
